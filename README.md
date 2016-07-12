@@ -5,6 +5,7 @@ FHEM auf Raspberry Pi installieren
 
 sudo apt-get update && sudo apt-get -y upgrade && sudo apt-get -y autoremove && sudo reboot
 
+
 2) FHEM installieren:
 
 wget -qO - https://debian.fhem.de/archive.key | sudo apt-key add - && echo "deb https://debian.fhem.de/stable ./" | sudo tee -a /etc/apt/sources.list && sudo apt-get -y install apt-transport-https && sudo apt-get update && sudo apt-get -y install fhem
